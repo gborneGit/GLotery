@@ -1,0 +1,6 @@
+main: fr.aang.glotery.Main
+name: GLotery
+version: 1.0
+api-version: 1.19
+depend: [ Vault, Multiverse-Core ]
+author: [Aang]

@@ -1,0 +1,88 @@
+# Position du coffre
+chest:
+  world: 'world_safe'
+  location: '7,106,26'
+
+# un des deux est obligatoire
+# [item] item
+# [money] give d'argent
+
+# non obligatoire
+# [quantity] quantité de l'item
+# [prob] nombre de fois ou l'item seras dans la liste (1 par default)
+# [name] nom de l'item
+# [lore] description (list)
+# [enchant] enchantements (list)
+items:
+  '0':
+    item: 'IRON_SWORD'
+    name: 
+    lore:
+    enchant:
+      - 'DURABILITY:1'
+    prob: 10
+  '1':
+    money: 50
+    prob: 20
+  '2':
+    money: 100
+    prob: 10
+  '3':
+    money: 1000
+    prob: 3
+  '4':
+    money: 5000
+    prob: 1
+  '5':
+    item: 'COOKED_BEEF'
+    quantity: 10
+    prob: 10
+  '6':
+    item: 'STONE_PICKAXE'
+    prob: 20
+  '7':
+    item: 'IRON_PICKAXE'
+    prob: 10
+  '8':
+    item: 'DIAMOND_PICKAXE'
+    prob: 3
+  '9':
+    item: 'NETHERITE_PICKAXE'
+    prob: 1
+  '10':
+    item: 'IRON_HELMET'
+    prob: 10
+  '11':
+    item: 'DIAMOND_HELMET'
+    prob: 3
+  '12':
+    item: 'NETHERITE_HELMET'
+    prob: 1
+  '13':
+    item: 'BOW'
+    enchant:
+      - 'ARROW_INFINITE:1'
+      - 'DURABILITY:2'
+    prob: 2
+  '14':
+    item: 'CROSSBOW'
+    enchant:
+      - 'ARROW_INFINITE:1'
+      - 'MULTISHOT:1'
+    prob: 1
+  '15':
+    item: 'SADDLE'
+    prob: 1
+  '16':
+    item: 'STONE_AXE'
+    prob: 20
+  '17':
+    item: 'IRON_AXE'
+    prob: 10
+  '18':
+    item: 'DIAMOND_AXE'
+    prob: 3
+  '19':
+    item: 'NETHERITE_AXE'
+    prob: 1
+    
